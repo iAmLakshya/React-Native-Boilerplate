@@ -1,40 +1,49 @@
 {
-  "name": "ReactApp",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "@react-native-community/async-storage": "^1.6.3",
-    "@react-native-community/datetimepicker": "^2.1.0",
-    "react": "^16.9.0",
-    "react-native": "0.61.5",
-    "react-native-date-picker": "^2.7.0",
-    "react-native-linear-gradient": "^2.5.6",
-    "react-native-modal": "^11.5.3",
-    "react-native-router-flux": "^4.0.6",
-    "react-native-size-matters": "^0.2.1",
-    "react-native-vector-icons": "^6.6.0",
-    "react-redux": "^7.1.3",
-    "redux-persist": "^6.0.0",
-    "redux-saga": "^1.1.3"
-  },
-  "devDependencies": {
-    "@babel/core": "7.7.4",
-    "@babel/runtime": "7.7.4",
-    "@react-native-community/eslint-config": "0.0.5",
-    "babel-jest": "24.9.0",
-    "eslint": "6.7.1",
-    "jest": "24.9.0",
-    "metro-react-native-babel-preset": "0.56.3",
-    "react-test-renderer": "16.9.0"
-  },
-  "jest": {
-    "preset": "react-native"
-  }
+    "name": "medacs",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "android": "react-native run-android",
+        "ios": "react-native run-ios",
+        "start": "react-native start",
+        "test": "jest",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "@react-native-community/async-storage": "^1.6.3",
+        "@react-native-community/datetimepicker": "^2.1.0",
+        "libphonenumber-js": "^1.7.29",
+        "lottie-ios": "^3.1.3",
+        "lottie-react-native": "^3.3.2",
+        "reac": "0.0.0",
+        "react": "^16.9.0",
+        "react-native": "0.61.5",
+        "react-native-date-picker": "^2.7.0",
+        "react-native-easy-grid": "^0.2.2",
+        "react-native-hr-plus": "^1.0.6",
+        "react-native-linear-gradient": "^2.5.6",
+        "react-native-modal": "^11.5.3",
+        "react-native-raw-bottom-sheet": "^2.0.6",
+        "react-native-responsive-screen": "^1.3.0",
+        "react-native-router-flux": "^4.0.6",
+        "react-native-size-matters": "^0.2.1",
+        "react-native-vector-icons": "^6.6.0",
+        "react-redux": "^7.1.3",
+        "redux-persist": "^6.0.0",
+        "redux-saga": "^1.1.3",
+        "styled-components": "^4.4.1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.7.4",
+        "@babel/runtime": "7.7.4",
+        "@react-native-community/eslint-config": "0.0.5",
+        "babel-jest": "24.9.0",
+        "eslint": "6.7.1",
+        "jest": "24.9.0",
+        "metro-react-native-babel-preset": "0.56.3",
+        "react-test-renderer": "16.9.0"
+    },
+    "jest": {
+        "preset": "react-native"
+    }
 }
